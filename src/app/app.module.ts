@@ -8,6 +8,7 @@ import { CategoryAvbarComponent } from './layout/category-avbar/category-avbar.c
 import { CategoryNavbarComponent } from './layouts/category-navbar/category-navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
+import { SinglePostComponent } from './pages/single-post/single-post.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SingleCategoryComponent } from './pages/single-category/single-category
     CategoryAvbarComponent,
     CategoryNavbarComponent,
     HomeComponent,
-    SingleCategoryComponent
+    SingleCategoryComponent,
+    SinglePostComponent
   ],
   imports: [
     BrowserModule,
