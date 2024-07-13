@@ -5,6 +5,7 @@ import { SingleCategoryComponent } from './pages/single-category/single-category
 import { SinglePostComponent } from './pages/single-post/single-post.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { TermConditionsComponent } from './pages/term-conditions/term-conditions.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
 
   {path:'contact',component: ContactUsComponent},
   {path:'about', component: AboutUsComponent},
+  {path:'terms', component: TermConditionsComponent},
 ];
 
 @NgModule({
