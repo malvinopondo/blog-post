@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layouts/header/header.component';
-import { CategoryAvbarComponent } from './layout/category-avbar/category-navbar.component';
 import { CategoryNavbarComponent } from './layouts/category-navbar/category-navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
@@ -20,7 +20,6 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    CategoryAvbarComponent,
     CategoryNavbarComponent,
     HomeComponent,
     SingleCategoryComponent,
