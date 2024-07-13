@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
 import { SinglePostComponent } from './pages/single-post/single-post.component';
 import { TermConditionsComponent } from './pages/term-conditions/term-conditions.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TermConditionsComponent } from './pages/term-conditions/term-conditions
     HomeComponent,
     SingleCategoryComponent,
     SinglePostComponent,
-    TermConditionsComponent
+    TermConditionsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
