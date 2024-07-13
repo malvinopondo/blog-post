@@ -9,6 +9,7 @@ import { CategoryNavbarComponent } from './layouts/category-navbar/category-navb
 import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
 import { SinglePostComponent } from './pages/single-post/single-post.component';
+import { TermConditionsComponent } from './pages/term-conditions/term-conditions.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SinglePostComponent } from './pages/single-post/single-post.component';
     CategoryNavbarComponent,
     HomeComponent,
     SingleCategoryComponent,
-    SinglePostComponent
+    SinglePostComponent,
+    TermConditionsComponent
   ],
   imports: [
     BrowserModule,
