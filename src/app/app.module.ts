@@ -7,6 +7,7 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { CategoryAvbarComponent } from './layout/category-avbar/category-avbar.component';
 import { CategoryNavbarComponent } from './layouts/category-navbar/category-navbar.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SingleCategoryComponent } from './pages/single-category/single-category.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './pages/home/home.component';
     HeaderComponent,
     CategoryAvbarComponent,
     CategoryNavbarComponent,
-    HomeComponent
+    HomeComponent,
+    SingleCategoryComponent
   ],
   imports: [
     BrowserModule,
