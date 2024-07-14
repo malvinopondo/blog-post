@@ -1,3 +1,9 @@
 nav{
     margin-top: 100px; 
+    background: var(--navbar-footer-color);
+    height: 50px;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: var(--primary-color);
 }
