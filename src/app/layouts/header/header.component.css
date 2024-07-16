@@ -2,9 +2,5 @@ header{
     height: 100px;
 }
 .site.logo{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    font-size: 1em;
+    font-size: 1.2em;
 }
