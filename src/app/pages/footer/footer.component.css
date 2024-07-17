@@ -3,7 +3,7 @@ footer{
     padding: 40px;
     margin-top: 85vh;
     background-color: var(--navbar-footer-color);
-    margin-top: 85vh;
+    /* margin-top: 85vh; */
     
 }
 .site-logo{

@@ -1,4 +1,6 @@
 .app-body{
-    min-height: 85vh;
-    margin-top: 160px;
+    /* min-height: 85vh;
+    margin-top: 160px; */
+    margin-top: 150px;
+    min-height: 35vh;
 }
